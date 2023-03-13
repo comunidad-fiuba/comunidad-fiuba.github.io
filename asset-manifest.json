@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21efbb09.css",
+    "main.js": "/static/js/main.c866a053.js",
+    "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.3adcd303904830345797.jpg",
+    "index.html": "/index.html",
+    "main.21efbb09.css.map": "/static/css/main.21efbb09.css.map",
+    "main.c866a053.js.map": "/static/js/main.c866a053.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21efbb09.css",
+    "static/js/main.c866a053.js"
+  ]
+}
