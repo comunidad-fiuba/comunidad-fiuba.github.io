@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.15f2d9a3.css",
-    "main.js": "/static/js/main.68421eb3.js",
+    "main.css": "/static/css/main.d2b57652.css",
+    "main.js": "/static/js/main.e147cac1.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.3adcd303904830345797.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.2c79f41bd30bc14d283c.png",
     "index.html": "/index.html",
-    "main.15f2d9a3.css.map": "/static/css/main.15f2d9a3.css.map",
-    "main.68421eb3.js.map": "/static/js/main.68421eb3.js.map"
+    "main.d2b57652.css.map": "/static/css/main.d2b57652.css.map",
+    "main.e147cac1.js.map": "/static/js/main.e147cac1.js.map"
   },
   "entrypoints": [
-    "static/css/main.15f2d9a3.css",
-    "static/js/main.68421eb3.js"
+    "static/css/main.d2b57652.css",
+    "static/js/main.e147cac1.js"
   ]
 }
