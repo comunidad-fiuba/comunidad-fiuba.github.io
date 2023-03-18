@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d060aa74.css",
-    "main.js": "/static/js/main.8587ab5d.js",
+    "main.css": "/static/css/main.d2208bea.css",
+    "main.js": "/static/js/main.6204c3bf.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.3adcd303904830345797.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.2c79f41bd30bc14d283c.png",
+    "static/media/laPizarraOnline.png": "/static/media/laPizarraOnline.876e9141337d3625f86f.png",
     "index.html": "/index.html",
-    "main.d060aa74.css.map": "/static/css/main.d060aa74.css.map",
-    "main.8587ab5d.js.map": "/static/js/main.8587ab5d.js.map"
+    "main.d2208bea.css.map": "/static/css/main.d2208bea.css.map",
+    "main.6204c3bf.js.map": "/static/js/main.6204c3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d060aa74.css",
-    "static/js/main.8587ab5d.js"
+    "static/css/main.d2208bea.css",
+    "static/js/main.6204c3bf.js"
   ]
 }
