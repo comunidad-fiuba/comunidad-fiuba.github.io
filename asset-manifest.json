@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.408da395.css",
-    "main.js": "/static/js/main.a4387266.js",
+    "main.js": "/static/js/main.b39b818f.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.3adcd303904830345797.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.2c79f41bd30bc14d283c.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
@@ -69,10 +69,10 @@
     "static/media/waveStack.svg": "/static/media/waveStack.a0988bf27924806ada65.svg",
     "index.html": "/index.html",
     "main.408da395.css.map": "/static/css/main.408da395.css.map",
-    "main.a4387266.js.map": "/static/js/main.a4387266.js.map"
+    "main.b39b818f.js.map": "/static/js/main.b39b818f.js.map"
   },
   "entrypoints": [
     "static/css/main.408da395.css",
-    "static/js/main.a4387266.js"
+    "static/js/main.b39b818f.js"
   ]
 }
