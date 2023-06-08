@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6361fb6c.css",
-    "main.js": "/static/js/main.cafd008e.js",
+    "main.css": "/static/css/main.dd7392c4.css",
+    "main.js": "/static/js/main.1748426f.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.3adcd303904830345797.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.2c79f41bd30bc14d283c.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
@@ -68,11 +68,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "static/media/waveStack.svg": "/static/media/waveStack.a0988bf27924806ada65.svg",
     "index.html": "/index.html",
-    "main.6361fb6c.css.map": "/static/css/main.6361fb6c.css.map",
-    "main.cafd008e.js.map": "/static/js/main.cafd008e.js.map"
+    "main.dd7392c4.css.map": "/static/css/main.dd7392c4.css.map",
+    "main.1748426f.js.map": "/static/js/main.1748426f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6361fb6c.css",
-    "static/js/main.cafd008e.js"
+    "static/css/main.dd7392c4.css",
+    "static/js/main.1748426f.js"
   ]
 }
