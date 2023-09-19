@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.16a5f5e1.css",
-    "main.js": "/static/js/main.9c3701ac.js",
+    "main.js": "/static/js/main.c64831bf.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.90e45538dd4b9bf77ffa.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.8e687d9f4ca5208323e8.png",
     "static/media/cafe.png": "/static/media/cafe.5a6728f8801b6248763c.png",
@@ -9,10 +9,10 @@
     "static/media/waveStack.svg": "/static/media/waveStack.a0988bf27924806ada65.svg",
     "index.html": "/index.html",
     "main.16a5f5e1.css.map": "/static/css/main.16a5f5e1.css.map",
-    "main.9c3701ac.js.map": "/static/js/main.9c3701ac.js.map"
+    "main.c64831bf.js.map": "/static/js/main.c64831bf.js.map"
   },
   "entrypoints": [
     "static/css/main.16a5f5e1.css",
-    "static/js/main.9c3701ac.js"
+    "static/js/main.c64831bf.js"
   ]
 }
