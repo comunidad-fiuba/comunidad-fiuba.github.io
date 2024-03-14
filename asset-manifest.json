@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a2b86b4.css",
-    "main.js": "/static/js/main.72c14cfe.js",
+    "main.css": "/static/css/main.865c31e9.css",
+    "main.js": "/static/js/main.deb05fa5.js",
     "static/media/fiubaRojo.jpg": "/static/media/fiubaRojo.90e45538dd4b9bf77ffa.jpg",
     "static/media/fiubaH3.png": "/static/media/fiubaH3.8e687d9f4ca5208323e8.png",
     "static/media/cafe.png": "/static/media/cafe.5a6728f8801b6248763c.png",
     "static/media/laPizarraOnline.png": "/static/media/laPizarraOnline.876e9141337d3625f86f.png",
     "static/media/waveStack.svg": "/static/media/waveStack.a0988bf27924806ada65.svg",
     "index.html": "/index.html",
-    "main.9a2b86b4.css.map": "/static/css/main.9a2b86b4.css.map",
-    "main.72c14cfe.js.map": "/static/js/main.72c14cfe.js.map"
+    "main.865c31e9.css.map": "/static/css/main.865c31e9.css.map",
+    "main.deb05fa5.js.map": "/static/js/main.deb05fa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a2b86b4.css",
-    "static/js/main.72c14cfe.js"
+    "static/css/main.865c31e9.css",
+    "static/js/main.deb05fa5.js"
   ]
 }
