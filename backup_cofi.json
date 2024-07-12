@@ -635,18 +635,7 @@
     "id": 54,
     "usuario": "Apophis14"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "vespeche@fi.uba.ar",
     "archivo": "Resumen Formulas - Discreta",
@@ -1115,18 +1104,7 @@
     "id": 94,
     "usuario": "Alepaff"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "ipujato@fi.uba.ar",
     "archivo": "Resumen Analisis 2",
@@ -1271,342 +1249,27 @@
     "id": 107,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1KNfsLXV37D146dUB8ds05L73ydrWyrSn/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 128,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1Z4vOFk11uetSXAJR7Bj57y5KCQ9I72t4/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 129,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/14k4T_rIuuTOU20wfd9EuyNWLsXeO30Rd/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 130,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1_cq5MhCga0PR56_6DITEO9XQKKwGU747/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 132,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1x9XeT0C5Yfzw2NwoybUbpQdwzDpK0QDg/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Matematica Discreta",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 133,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1Atb_L2Pft1b_kbsGa2YUVvSLOKUUQ2h2/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 134,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1dcCQ9USdnsdkX9x_8IJFJvBXuJ3kBK2W/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 135,
-    "usuario": "Andres Melnik"
-  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   {
     "email": "lpetit@fi.uba.ar",
     "archivo": "Final AM2 14/2/23",
@@ -1679,54 +1342,10 @@
     "id": 141,
     "usuario": "LUCAS PETIT DE MEURVILLE"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
+  
+  
+  
   {
     "email": "lpetit@fi.uba.ar",
     "archivo": "Final Discreta 18/12/2017",
@@ -1835,18 +1454,7 @@
     "id": 154,
     "usuario": "LUCAS PETIT DE MEURVILLE"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "lpetit@fi.uba.ar",
     "archivo": "Final Discreta 27/06/2016",
@@ -1883,18 +1491,7 @@
     "id": 158,
     "usuario": "LUCAS PETIT DE MEURVILLE"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "lpetit@fi.uba.ar",
     "archivo": "Final Discreta 14/12/2015",
@@ -1955,18 +1552,7 @@
     "id": 164,
     "usuario": "Martín Ledesma"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "hmunoz@fi.uba.ar",
     "archivo": "Parcial 27/05/2023 Bello",
@@ -2123,18 +1709,7 @@
     "id": 178,
     "usuario": "Alen Monti"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amonti@fi.uba.ar",
     "archivo": "Parcial Recuperatorio 18-6-2022",
@@ -2255,42 +1830,9 @@
     "id": 189,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
+  
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Final 22/11/22",
@@ -2927,42 +2469,9 @@
     "id": 245,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
+  
+  
   {
     "email": "djuares@fi.uba.ar",
     "archivo": "Integrador 21 12 22 Resolución",
@@ -2987,18 +2496,7 @@
     "id": 250,
     "usuario": "anónimo"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "djuares@fi.uba.ar",
     "archivo": "2023 06 03 Parcial Resuelto",
@@ -3059,18 +2557,7 @@
     "id": 256,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Resumen parte 1 Essaya",
@@ -3551,18 +3038,7 @@
     "id": 297,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Resumen Parcial",
@@ -3587,18 +3063,7 @@
     "id": 300,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Final 19/12/22",
@@ -3899,30 +3364,8 @@
     "id": 326,
     "usuario": "Lucas Petit"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
+  
   {
     "email": "djuares@fi.uba.ar",
     "archivo": "Final 14/07/2023",
@@ -4007,18 +3450,7 @@
     "id": 335,
     "usuario": "Rubén Bohórquez"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "rbohorquez@fi.uba.ar",
     "archivo": "Apunte de Intro. a las Cs. de Datos ~ Jemina",
@@ -4079,18 +3511,7 @@
     "id": 341,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "5ta fecha marzo 2023 CALVO",
@@ -4139,18 +3560,7 @@
     "id": 346,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "fsecchi@fi.uba.ar",
     "archivo": "Resumen teórico",
@@ -4163,18 +3573,7 @@
     "id": 348,
     "usuario": "Franco Fabian Secchi"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "hmunoz@fi.uba.ar",
     "archivo": "Final 10/8/2023",
@@ -4247,90 +3646,13 @@
     "id": 355,
     "usuario": "Jesabel Pugliese"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
+  
+  
+  
+  
+  
+  
   {
     "email": "mutrera@fi.uba.ar",
     "archivo": "Guia 7 - Integrales de línea o curvilíneas",
@@ -4390,138 +3712,6 @@
     "likes": 0,
     "id": 367,
     "usuario": "Rubén Bohórquez"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "test",
-    "link": "https://drive.google.com/file/d/1kx2AsVbqqIXohaPd2EY8LYYGvetN75xS/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Analisis Matematico II",
-    "anio": 2022,
-    "_": "",
-    "likes": 0,
-    "id": 368,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "test",
-    "link": "https://drive.google.com/file/d/1X2iNPwyfUtrRrDHcHFpP4Ts59afmJqz5/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Analisis Matematico II",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 369,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "test2",
-    "link": "https://drive.google.com/file/d/1n3JJ4vXZo49vN8VCN1IKSz0r6UwXAk7e/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica B",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 370,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1SbGZ7y9FSeTs3_-n5FCmlyS4ruqyLTqZ/view?usp=drivesdk",
-    "tipo": "undefined",
-    "materia": "Analisis Matematico II",
-    "anio": "Resumen",
-    "_": "",
-    "likes": 0,
-    "id": 371,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "test",
-    "link": "https://drive.google.com/file/d/161KavI_mvvItp1x7HW78BI_nhBvLvvnY/view?usp=drivesdk",
-    "tipo": "undefined",
-    "materia": "Analisis Matematico II",
-    "anio": "Resumen",
-    "_": "",
-    "likes": 0,
-    "id": 372,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1uVrF_56FNeHwVoRIkcBSW656d-rdQZH_/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Fisica I",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 373,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1C-j1Fo0TOH1xUvug6hfmPHa6SjgGgVwR/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Algebra II",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 374,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/16hMw_vYbB08XHUpxh6mxckav6k6-w-0l/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Algebra II",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 375,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1QKKwaPH2azrIYskRpz6FExwTn6jGqTBc/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Analisis Matematico II",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 376,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "test",
-    "link": "https://drive.google.com/file/d/1PrEBIgnVQQlOSYNmiXoX1WR0FpHK5NUs/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Fisica II B",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 377,
-    "usuario": "Andres Melnik"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "prueba",
-    "link": "https://drive.google.com/file/d/1oyTBi3_pGJ8aImjg6tJwJoxGnAMquweU/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Probabilidad y Estadistica B",
-    "anio": 2023,
-    "_": "",
-    "likes": 0,
-    "id": 378,
-    "usuario": "Andres Melnik"
   },
   {
     "email": "amelnik@fi.uba.ar",
@@ -4595,18 +3785,7 @@
     "id": 384,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Equilibrio quimico",
@@ -4655,18 +3834,7 @@
     "id": 389,
     "usuario": "Andres Melnik"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "amelnik@fi.uba.ar",
     "archivo": "Solubilidad",
@@ -4787,18 +3955,7 @@
     "id": 400,
     "usuario": "Rubén Bohórquez"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "aamorin@fi.uba.ar",
     "archivo": "Parcial 2do cuatri 2023 - cátedra repetto",
@@ -4847,18 +4004,7 @@
     "id": 405,
     "usuario": "anashei"
   },
-  {
-    "email": "",
-    "archivo": "",
-    "link": "",
-    "tipo": "",
-    "materia": "",
-    "anio": "",
-    "_": "",
-    "likes": "",
-    "id": "",
-    "usuario": ""
-  },
+  
   {
     "email": "gmascig@fi.uba.ar",
     "archivo": "Ejemplos de parciales catedra Cornejo fisica I",
@@ -5086,18 +4232,6 @@
     "likes": 0,
     "id": 425,
     "usuario": "Melanie"
-  },
-  {
-    "email": "amelnik@fi.uba.ar",
-    "archivo": "Test",
-    "link": "https://drive.google.com/file/d/1HQVHYX7CpkNh3CpRqgn87wLsSneNp2Ok/view?usp=drivesdk",
-    "tipo": "Resumen",
-    "materia": "Matematica Discreta",
-    "anio": 2024,
-    "_": "",
-    "likes": 0,
-    "id": 426,
-    "usuario": "Andres Melnik"
   },
   {
     "email": "amelnik@fi.uba.ar",
