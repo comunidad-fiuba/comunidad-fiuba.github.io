@@ -1,12 +1,2160 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Test</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;URL='/'">
+    <title>Posts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background: #f9f9f9;
+            opacity: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .item-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        .item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            width: 320px;
+            box-shadow: 0 2px 6px #0001;
+        }
+
+        .item h2 {
+            font-size: 1.1em;
+            margin: 0 0 0.5em 0;
+            color: #0074d9;
+        }
+
+        .item .subject {
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        .item .id {
+            color: #aaa;
+            font-size: 0.85em;
+        }
+    </style>
 </head>
+
 <body>
-    test
+    <h1>Todos los posts de comunidad fiuba</h1>
+    <div class="item-list" id="item-list">
+        <div class="item">
+            <div class="id">ID: 1</div>
+            <h2>Guia 5 - Polinomio de Taylor - Extremos libres y condicionados</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 2</div>
+            <h2>AM II 2-8-22 final resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 3</div>
+            <h2>Guia 1 Resuelta Algebra 2 - parte 2 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 4</div>
+            <h2>Algebra II 9-9-20 choice y escrito resuelto</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 5</div>
+            <h2>Final Resuelto 15/2/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 6</div>
+            <h2>Algebra II autoevaluacion con respuestas 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 7</div>
+            <h2>1er Parcial de Fisica I 18-05-23</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 8</div>
+            <h2>Tabla de Integrales</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 9</div>
+            <h2>febrero 2023</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 10</div>
+            <h2>Identidades trigonométricas útiles en AN2</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 11</div>
+            <h2>Parcial 2022 - 3</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 12</div>
+            <h2>Resumen parte 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 13</div>
+            <h2>Resumen parte 3</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 14</div>
+            <h2>Algebra II final choice y escrito resuelto</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 15</div>
+            <h2>Guia 1 - Geometria del plano y del espacio</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 16</div>
+            <h2>Rejunte final medios de representacion</h2>
+            <div class="subject">Medios de Representacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 17</div>
+            <h2>Guia 3 - Derivabilidad - Diferenciabilidad</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 18</div>
+            <h2>Muchos ejercicios de final resueltos</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 19</div>
+            <h2>Guia 5 Resuelta Algebra 2 - parte 1 de 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 20</div>
+            <h2>Algebra II 11-7-20 parcial con respuestas</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 21</div>
+            <h2>Algebra II autoevaluacion con respuestas 4</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 22</div>
+            <h2>enero 2023</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 23</div>
+            <h2>Alterna</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 24</div>
+            <h2>Parcial AMIII 28/10/2022 Prelat</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 25</div>
+            <h2>Machete Algebra</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 26</div>
+            <h2>AM 2 21-5-22 parcial resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 27</div>
+            <h2>Final Resuelto 8/3/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 28</div>
+            <h2>enero 2023</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 29</div>
+            <h2>Resumen parte 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 30</div>
+            <h2>Resumen para Análisis 2 (ITBA)</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 31</div>
+            <h2>Transitorios</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 32</div>
+            <h2>Parcial 2022 recu </h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 33</div>
+            <h2>Preguntas de final multiple choice</h2>
+            <div class="subject">Instalaciones Industriales</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 34</div>
+            <h2>Hojas de formula</h2>
+            <div class="subject">Mecanica de Fluidos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 35</div>
+            <h2>Resuelto 2019-4</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 36</div>
+            <h2>Trabajo práctico Péndulo</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 37</div>
+            <h2>Guia 2 Resuelta Algebra 2 - parte 2 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 38</div>
+            <h2>Resuelto 2019-2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 39</div>
+            <h2>Guia 1 Resuelta Algebra 2 - parte 1 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 40</div>
+            <h2>Fisica I - Resumen para el parcial</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 41</div>
+            <h2>Resumen Analisis 2</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 42</div>
+            <h2>Un gran resumen para Algebra 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 43</div>
+            <h2>Resumen - Parnisari - Algebra 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 44</div>
+            <h2>Algebra II 23-9-21 choice y escrito resuelto</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 45</div>
+            <h2>Un gran resumen para Análisis 2</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 46</div>
+            <h2>Resumen Formulas - Discreta</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 47</div>
+            <h2>Resumen Final</h2>
+            <div class="subject">Estatica y Resistencia de Materiales</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 48</div>
+            <h2>Parcial 2022 recu 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 49</div>
+            <h2>Parcial 2022 - 2</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 50</div>
+            <h2>Formulas y Propiedades</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 51</div>
+            <h2>finales algo2</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 52</div>
+            <h2>Resuelto 2019-3</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 53</div>
+            <h2>AM 2 11-6-22 parcial resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 54</div>
+            <h2>Algebra II autoevaluacion con respuestas 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 55</div>
+            <h2>Algebra II 16-9-20 final resuelto</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 56</div>
+            <h2>final 17-08-21</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 57</div>
+            <h2>Compilado parciales curso 6 - Fisica 1 - Moreno</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 58</div>
+            <h2>Resumen Teoria</h2>
+            <div class="subject">Estatica y Resistencia de Materiales</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 59</div>
+            <h2>Apunte Virtual Discreta</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 60</div>
+            <h2>Guia 4 RESUELTA</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 61</div>
+            <h2>Fórmulas para Física 1</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 62</div>
+            <h2>Guia 2 - Funciones-Limites-Continuidad-Curvas y superficies</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 63</div>
+            <h2>Guia 3 Resuelta Algebra 2 - parte 2 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 64</div>
+            <h2>Trabajo práctico Mediciones</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 65</div>
+            <h2>Guia 4 Resuelta Algebra 2 - parte 1 de 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 66</div>
+            <h2>¿Cuando una función es diferenciable?</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 67</div>
+            <h2>marzo 2023</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 68</div>
+            <h2>[ELM] Fundamentals of Database Systems - Elmasri,Navathe - 7ma Edicion</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 69</div>
+            <h2>Como sobrevivir al parcial y no morir para el final </h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 70</div>
+            <h2>Fórmulas para Análisis 2</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 71</div>
+            <h2>Parcial 2C2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 72</div>
+            <h2>Final algebra multiple choice</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 73</div>
+            <h2>Resumen parte 1</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 74</div>
+            <h2>Algebra II autoevaluacion con respuestas 0</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 75</div>
+            <h2>Induccion </h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 76</div>
+            <h2>Formulas y Propiedades</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 77</div>
+            <h2>Libro álgebra ||</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 78</div>
+            <h2>Teoria de la medida</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 79</div>
+            <h2>Guia 1 Resuelta</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 80</div>
+            <h2>Resumen teorico</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 81</div>
+            <h2>Guia 4 - Funciones compuestas e implicitas</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 82</div>
+            <h2>AM 2 18-2-20 final resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 83</div>
+            <h2>Resumen Medios </h2>
+            <div class="subject">Medios de Representacion A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 84</div>
+            <h2>Guia 6 Resuelta Algebra 2 - parte 1 de 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 85</div>
+            <h2>Resumen parte 2</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 86</div>
+            <h2>(ingles) relational algebra apunte en ingles con buenos ejemplos</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 87</div>
+            <h2>¿Cuando usar el Jacobiano y cuando no?</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 88</div>
+            <h2>Final Algebra</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 89</div>
+            <h2>Final analisis</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 90</div>
+            <h2>[ELM] Fundamentals of Database Systems - Elmasri,Navathe - 7ma Edicion</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 91</div>
+            <h2>Guia 2 RESUELTA</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 92</div>
+            <h2>Fórmulas 1er Parcial - AM2</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 93</div>
+            <h2>Resumen para Análisis 2 (UTN)</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 94</div>
+            <h2>Parcial 2022 resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 95</div>
+            <h2>Guia 3 Resuelta Algebra 2 - parte 1 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 96</div>
+            <h2>Cheat Sheet AM2 para final</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 97</div>
+            <h2>Final Resuelto 8/2/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 98</div>
+            <h2>Parcial 2022 </h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 99</div>
+            <h2>Algebra II autoevaluacion con respuestas 3</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 100</div>
+            <h2>Final Resuelto 22/2/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 101</div>
+            <h2>Guia 2 Resuelta Algebra 2 - parte 1 de 2</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 102</div>
+            <h2>Resumen de la materia con formulas y aplicaciones</h2>
+            <div class="subject">Operaciones Unitarias III</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 103</div>
+            <h2>Parcial 2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 104</div>
+            <h2>Parcial 2022 recu 1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 105</div>
+            <h2>Resuelto 2019-1</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 106</div>
+            <h2>Parcial 2022</h2>
+            <div class="subject">Fisica I A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 107</div>
+            <h2>Final Resuelto 15/3/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 128</div>
+            <h2>Final AM2 14/2/23</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 129</div>
+            <h2>Finales AM2 1C 2022</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 130</div>
+            <h2>Final Discreta 17/02/2020</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 132</div>
+            <h2>Ejercicios resuletos por Maulhardt</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 133</div>
+            <h2>Final Discreta 10/02/2020</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 134</div>
+            <h2>Final Discreta 09/12/2019</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 135</div>
+            <h2>Final Discreta 29/07/2019</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 136</div>
+            <h2>Final Discreta 05/07/2019</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 137</div>
+            <h2>Final Discreta 11/02/2019</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 138</div>
+            <h2>Final Discreta 18/12/2017</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 139</div>
+            <h2>Final Discreta 17/07/2017</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 140</div>
+            <h2>Final Discreta 18/07/2016</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 141</div>
+            <h2>Final Discreta Resuelto 04/07/2016</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 146</div>
+            <h2>Final Discreta 27/06/2016</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 147</div>
+            <h2>Final Discreta 29/02/2016</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 148</div>
+            <h2>Final Discreta 22/02/2016</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 149</div>
+            <h2>Final Discreta 21/12/2015</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 150</div>
+            <h2>Final Discreta 14/12/2015</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 151</div>
+            <h2>Final Discreta 09/12/2015</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 152</div>
+            <h2>Final Discreta 28/07/2015</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 153</div>
+            <h2>Final Discreta 21/07/2015</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 154</div>
+            <h2>Resumenes Completos de PROBA</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 156</div>
+            <h2>Parcial 27/05/2023 Bello</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 157</div>
+            <h2>Parcial 4/05/23 Essaya</h2>
+            <div class="subject">Algoritmos y Programacion III</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 158</div>
+            <h2>Parcial 3/11/22 Essaya</h2>
+            <div class="subject">Algoritmos y Programacion III</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 160</div>
+            <h2>Parcial 20/5/23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 161</div>
+            <h2>Parcial Resuelto 13-5-2023</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 162</div>
+            <h2>Parcial 18/05/2023</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 163</div>
+            <h2>Parcial 1 1C2023 </h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 164</div>
+            <h2>Parcial Resulto 1C 2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 166</div>
+            <h2>Parcial Resulto 1C 2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 167</div>
+            <h2>Parcial Recuperatorio 2C 2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 168</div>
+            <h2>Parcial recuperatorio 19-11-2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 169</div>
+            <h2>Parcial Diferido 2C 2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 170</div>
+            <h2>Parcial Recuperatorio 18-6-2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 171</div>
+            <h2>Resumen Grafos</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 172</div>
+            <h2>Finales Resuletos Orga Benitez</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 173</div>
+            <h2>Parcial 1er Fecha - 1er Cuatrimestre 2023</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 174</div>
+            <h2>Álgebra II Parcial I 20/05/2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 175</div>
+            <h2>Parcial Recu 10/6/2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 176</div>
+            <h2>Final Resuelto 12/7/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 177</div>
+            <h2>Final Resuelto 19/7/22</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 178</div>
+            <h2>Recu 1C 2023</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 180</div>
+            <h2>Final Resuelto 21/12/22</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 181</div>
+            <h2>Final Resuelto 20/7/2022</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 182</div>
+            <h2>Final Resuelto 13/7/22</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 183</div>
+            <h2>Final 22/11/22</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 184</div>
+            <h2>Recu resuelto 10/6/2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 185</div>
+            <h2>Varios finales Resueltos 2022</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 186</div>
+            <h2>Sassano 4/8/2021 </h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 187</div>
+            <h2>Sassano 23/6/2021 </h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 188</div>
+            <h2>Sassano 9/6/2021 </h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 189</div>
+            <h2>Sassano 10/3/2021 </h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 193</div>
+            <h2>Final Sassano 25/8/21</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 194</div>
+            <h2>Final Sassano 18/8/21</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 195</div>
+            <h2>Final Sassano 11/8/21</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 196</div>
+            <h2>Final Sassano 4/8/21</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 197</div>
+            <h2>Parcial Schwarz 1C 2023 T1</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 198</div>
+            <h2>Parcial Schwarz 1C 2023 T2</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 199</div>
+            <h2>Resumen Quimica</h2>
+            <div class="subject">Quimica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 200</div>
+            <h2>Guia 1 </h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 201</div>
+            <h2>Guia 2</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 202</div>
+            <h2>Guia 3</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 203</div>
+            <h2>Guia 6</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 204</div>
+            <h2>Guia 7</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 205</div>
+            <h2>Guia 8</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 206</div>
+            <h2>Guia 9</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 207</div>
+            <h2>Guia 4</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 208</div>
+            <h2>Guia 5</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 209</div>
+            <h2>Guia 11</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 210</div>
+            <h2>Guia 12</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 211</div>
+            <h2>Guia 10</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 212</div>
+            <h2>Guia Enunciados </h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 213</div>
+            <h2>Parcialitos 1c2023 - Turno Lunes</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 214</div>
+            <h2>Guia Resuelta Fisica </h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 215</div>
+            <h2>Ejercicios Resueltos Hidrodinamica</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 216</div>
+            <h2>Apunte Fisica 1</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 217</div>
+            <h2>Resumen teorico fisica 1</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 218</div>
+            <h2>1 recuperatorio quimica(1C 2023)</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 219</div>
+            <h2>2 recuperatorio quimica(1C 2023)</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 220</div>
+            <h2>Analísis II - Síntesis para el final</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 221</div>
+            <h2>Primer Parcial 1c2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 222</div>
+            <h2>Resolucion Primer Parcial 1c2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 223</div>
+            <h2>Resolucion Primer Recuperatorio 1c2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 224</div>
+            <h2> Primer Recuperatorio 1c2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 225</div>
+            <h2>Preguntas medios</h2>
+            <div class="subject">Medios de Representacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 226</div>
+            <h2>Preguntas medios 2</h2>
+            <div class="subject">Medios de Representacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 227</div>
+            <h2>Quimica Nomenclatura</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 228</div>
+            <h2>Resumen del resumen</h2>
+            <div class="subject">Termodinamica de los Procesos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 229</div>
+            <h2>Resumen parte 1</h2>
+            <div class="subject">Termodinamica de los Procesos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 230</div>
+            <h2>Resumen parte 2</h2>
+            <div class="subject">Termodinamica de los Procesos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 231</div>
+            <h2>Resumen parte 3</h2>
+            <div class="subject">Termodinamica de los Procesos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 232</div>
+            <h2>Resumen parte 4</h2>
+            <div class="subject">Termodinamica de los Procesos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 233</div>
+            <h2>Resumen parte 1</h2>
+            <div class="subject">Quimica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 234</div>
+            <h2>Resumen parte 2</h2>
+            <div class="subject">Quimica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 235</div>
+            <h2>Resumen parte 3</h2>
+            <div class="subject">Quimica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 236</div>
+            <h2>1er Integ Enunc y Resol 05 07 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 237</div>
+            <h2>Integrador 21 12 22 Resolución</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 238</div>
+            <h2>integrador 01 03 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 239</div>
+            <h2>integrador 08 03 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 240</div>
+            <h2>2023 06 03 Parcial Resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 241</div>
+            <h2>2022 11 12 Parcial Resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 242</div>
+            <h2>2022 10 22 Parcial Resuelto</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 243</div>
+            <h2>Integrador 22 02 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 244</div>
+            <h2>Final 12/7/23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 245</div>
+            <h2>Resumen Completo 2023</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 249</div>
+            <h2>Final 13/7/23 Camejo</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 250</div>
+            <h2>Final 3/3/23</h2>
+            <div class="subject">Computacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 252</div>
+            <h2>Final 4/2/22</h2>
+            <div class="subject">Computacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 253</div>
+            <h2>Final 4/3/22</h2>
+            <div class="subject">Computacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 254</div>
+            <h2>Final 12/3/21</h2>
+            <div class="subject">Computacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 255</div>
+            <h2>Final 27/8/21</h2>
+            <div class="subject">Computacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 256</div>
+            <h2>Final 7/7/23</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 258</div>
+            <h2>Final 7/7/23 Essaya</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 259</div>
+            <h2>Final 10/7/23 </h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 260</div>
+            <h2>Final 7/7/23 Buchwald</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 261</div>
+            <h2>3er parcial Buchwald 30/6/23</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 262</div>
+            <h2>Final Resuelto 11/3/22</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 263</div>
+            <h2>Final Resuelto 4/3/22</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 264</div>
+            <h2>Final Resuelto 25/2/22</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 265</div>
+            <h2>Final Resuelto 18/2/22</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 266</div>
+            <h2>Final Resuelto 11/2/22</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 267</div>
+            <h2>Final Resuelto 3/9/21</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 268</div>
+            <h2>Final Resuelto 20/8/21</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 269</div>
+            <h2>Final Resuelto 27/8/21</h2>
+            <div class="subject">Analisis Matematico III A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 270</div>
+            <h2>Parcial 1C 2023</h2>
+            <div class="subject">Seguridad Ambiental y del Trabajo</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 271</div>
+            <h2>Resueltos de Parcial 2020</h2>
+            <div class="subject">Seguridad Ambiental y del Trabajo</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 272</div>
+            <h2>Final 13/2/2020</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 273</div>
+            <h2>Final 7/2/2020</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 274</div>
+            <h2>Parcial resuelto 27/5/22</h2>
+            <div class="subject">Tecnica Digital</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 275</div>
+            <h2>Final 16/3/2022</h2>
+            <div class="subject">Tecnica Digital</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 276</div>
+            <h2>Parcial 12/7/22</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 277</div>
+            <h2>Parcial 2/6/2022</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 278</div>
+            <h2>Parcial 30/5/22</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 279</div>
+            <h2>Parcial 27/6/2022</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 280</div>
+            <h2>Parcial 23/6/22</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 281</div>
+            <h2>Resumen parcial</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 282</div>
+            <h2>Apunte completo</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 283</div>
+            <h2>Varios ejercicios de final resueltos</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 284</div>
+            <h2>Resumen Discreta</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 285</div>
+            <h2>Final resuelto 18/2/20</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 286</div>
+            <h2>Parcial Resuelto 7/5/19</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 287</div>
+            <h2>Resumen Parcial</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 288</div>
+            <h2>Resumen De Formulas Viejo 2010</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 289</div>
+            <h2>Final Resuelto 25/2/22</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 290</div>
+            <h2>Final 19/12/22</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 291</div>
+            <h2>Parcial 24/6/23</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 292</div>
+            <h2>Final 8/7/23</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 293</div>
+            <h2>Parcial 3/6/23</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 294</div>
+            <h2>Resumen Final Parte 1</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 295</div>
+            <h2>Resumen Final Parte 2</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 296</div>
+            <h2>Final Resuelto 16/8/22</h2>
+            <div class="subject">Estructura del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 297</div>
+            <h2>2do Integ Enunc y Resol 12 07 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 299</div>
+            <h2>Final 13/7/23</h2>
+            <div class="subject">Fisica II A</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 300</div>
+            <h2>Resumen orga (hasta el parcial) - catedra Rodriguez</h2>
+            <div class="subject">Organizacion de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 302</div>
+            <h2>RESUMEN EQUILIBRIO QUÍMICO</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 303</div>
+            <h2>RESUMEN SOLUCIONES Y SOLUBILIDAD</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 304</div>
+            <h2>RESUMEN ELECTROQUÍMICA, ELECTRÓLISIS Y CORROSIÓN</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 305</div>
+            <h2>RESUMEN AGUAS Y COLOIDES</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 306</div>
+            <h2>RESUMEN 1ER MODULO</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 307</div>
+            <h2>RESUMEN POLIMEROS COMPLETO</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 308</div>
+            <h2>RESUMEN CINETICA QUIMICA</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 309</div>
+            <h2>Final Resuelto Sassano 19-07-2023</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 310</div>
+            <h2>Final Sassano 12-07-2023</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 311</div>
+            <h2>Final Sassano 05-07-2023</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 312</div>
+            <h2>Parcial Resuelto Sassano 11/05/2023</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 313</div>
+            <h2>Otros Finales Resueltos Orga Benitez</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 314</div>
+            <h2>Ejercicios de ARM de Final</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 315</div>
+            <h2>FINAL 14-12-22 Benitez</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 316</div>
+            <h2>FINAL 5-7-23 Benitez</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 317</div>
+            <h2>Final 14/07/2023</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 318</div>
+            <h2>Hoja de Fórmulas ~ Análisis Numérico</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 319</div>
+            <h2>Tabla de distribuciones</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 320</div>
+            <h2>Tabla de valores y cuantiles</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 321</div>
+            <h2>Apunte de Probabilidad y Estadística ~ R. Maronna</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 322</div>
+            <h2>Apunte de Probabilidad rev10 ~ Bello</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 323</div>
+            <h2>Apunte de Estadística rev7 ~ Bello</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 324</div>
+            <h2>Apunte de Bayesiana ~ Bello</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 325</div>
+            <h2>Apunte de Intro. a las Cs. de Datos ~ Jemina</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 326</div>
+            <h2>Parcial 27/05/2023 Resuelto</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 329</div>
+            <h2>Final Resuelto 1/8/23</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 330</div>
+            <h2>5ta fecha julio 2023 CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 331</div>
+            <h2>5ta fecha marzo 2023 CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 332</div>
+            <h2>4ta fecha febrero 2023 CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 333</div>
+            <h2>Resumen para final CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 334</div>
+            <h2>2c 2022 1era fecha CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 335</div>
+            <h2>2c 2022 2da fecha CALVO</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 337</div>
+            <h2>Resumen General Algo II - Buchwald</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 338</div>
+            <h2>Final 10/8/2023</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 339</div>
+            <h2>Resolución 3er Integrador 01 08 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 340</div>
+            <h2>Resolución 4to Integrador 09 08 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 341</div>
+            <h2>Resolución 5to Integrador 16 08 23</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 343</div>
+            <h2>Fórmulas Física I</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 344</div>
+            <h2>Formulas Fisica 1</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 345</div>
+            <h2>Trabajo y energia</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 346</div>
+            <h2>Sistema de particulas</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 348</div>
+            <h2>Ejercicio Final AMII</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 350</div>
+            <h2>Guia 6 - Ecuaciones Diferenciales - 1era parte</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 351</div>
+            <h2>Guia 7 - Integrales de línea o curvilíneas</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 352</div>
+            <h2>Guía 8 - Integrales múltiples</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 353</div>
+            <h2>Guia 9 - Integrales de Superficie</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 354</div>
+            <h2>Guia 10 - Teoremas integrales</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 355</div>
+            <h2>Parcial Álgebra 29/10/22 resuelto</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 363</div>
+            <h2>Aguas y coloides</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 364</div>
+            <h2>Cinetica quimica</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 365</div>
+            <h2>Electroquimica 1</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 366</div>
+            <h2>Electroquimica 2</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 367</div>
+            <h2>Electroquimica 3</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 368</div>
+            <h2>Equilibrio ionico 1</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 369</div>
+            <h2>Equilibrio ionico 2</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 370</div>
+            <h2>Equilibrio quimico</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 371</div>
+            <h2>Fuerzas intermoleculares y diagrama de fases</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 372</div>
+            <h2>Polimeros</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 373</div>
+            <h2>Quimica organica</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 374</div>
+            <h2>Solidos</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 375</div>
+            <h2>Solubilidad</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 376</div>
+            <h2>Termodinamica 1</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 377</div>
+            <h2>Termodinamica 2</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 378</div>
+            <h2>Termoquimica 1</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 379</div>
+            <h2>Termoquimica 2</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 380</div>
+            <h2>Resumen Algo 3 - Essaya - S.E.V</h2>
+            <div class="subject">Algoritmos y Programacion III</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 381</div>
+            <h2>Matemática Discreta - Parcial</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 382</div>
+            <h2>Aninfo resumen pre primer parcial (camejo)</h2>
+            <div class="subject">Analisis de la Informacion</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 383</div>
+            <h2>Álgebra 2 - Resumen Parcial</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 384</div>
+            <h2>Parcial 2c2023</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 386</div>
+            <h2>Parcial 2do cuatri 2023 - cátedra repetto</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 387</div>
+            <h2>Estructura de las organizaciones (completa)</h2>
+            <div class="subject">Estructura de las Organizaciones</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 388</div>
+            <h2>Resolución Recuperatorio Parcial </h2>
+            <div class="subject">Organizacion de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 389</div>
+            <h2>Resolución Parcial 26-10-2023</h2>
+            <div class="subject">Organizacion de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 391</div>
+            <h2>Ejemplos de parciales catedra Cornejo fisica I</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 392</div>
+            <h2>Repositorios Remotos de GitHub en Visual Studio Code</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 393</div>
+            <h2>Resumen teórico</h2>
+            <div class="subject">Arquitectura de Software</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 394</div>
+            <h2>ABB</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 395</div>
+            <h2>AVL</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 396</div>
+            <h2>ÁRBOL B</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 397</div>
+            <h2>Resumen Complejidad</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 398</div>
+            <h2>Resumen TDA Conjunto</h2>
+            <div class="subject">Algoritmos y Programacion II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 399</div>
+            <h2>Resueltos TDA - maxo</h2>
+            <div class="subject">Teoria de Algoritmos I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 400</div>
+            <h2>1er parcial</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 402</div>
+            <h2>1er parcial</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 403</div>
+            <h2>Parcial </h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 404</div>
+            <h2>1er Parcial</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 405</div>
+            <h2>1er Parcial</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 407</div>
+            <h2>Guia del acotador</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 408</div>
+            <h2>Finales Fechas 2do Cuatrimestre 2023</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 409</div>
+            <h2>2do Parcial (Luvini)</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 410</div>
+            <h2>2do Parcial (Luvini)</h2>
+            <div class="subject">Topografia y Geodesia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 411</div>
+            <h2>Base de Datos 2do Parcial Promocional</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 412</div>
+            <h2>Parcial 02-07-24 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 413</div>
+            <h2>Parcial 05-06-24 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 414</div>
+            <h2>Parcial 12-12-12 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 415</div>
+            <h2>Parcial 14-05-24 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 416</div>
+            <h2>Parcial 15-10-14 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 417</div>
+            <h2>Parcial 16-05-12 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 418</div>
+            <h2>Parcial 21-11-12 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 419</div>
+            <h2>Parcial 29-05-10 Resuelto Cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 421</div>
+            <h2>Parcial Fundamentos de la programacion primer cuatri 2024</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 423</div>
+            <h2>Parcial Fundamentos de la programacion primer cuatri 2024</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 424</div>
+            <h2>TP2 TBJ Intro. Dispositivos Electrónicos (ex dispo. semiconductores)</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 425</div>
+            <h2>TP1 Diodo Intro. Dispositivos Electrónicos (ex dispo. semiconductores)</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 426</div>
+            <h2>TP3 Amplificadores Intro. Dispositivos Electrónicos</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 427</div>
+            <h2>Parcial 15/06/2024 Intro. a los Dispositivos Electrónicos</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 428</div>
+            <h2>Parcial 28/05/2024</h2>
+            <div class="subject">Tecnica Digital</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 429</div>
+            <h2>final 2/7/2024</h2>
+            <div class="subject">Dispositivos Semiconductores</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 430</div>
+            <h2>final 2/7/2024</h2>
+            <div class="subject">Analisis de Circuitos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 431</div>
+            <h2>final 23/7/2024</h2>
+            <div class="subject">Analisis de Circuitos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 432</div>
+            <h2>Final Orga Marchi, Langer 2c2024</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 434</div>
+            <h2>Guia para resolver el final de numerico cavaliere</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 435</div>
+            <h2>Material - Ing Informática</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 436</div>
+            <h2>Material completo - Álgebra II</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 437</div>
+            <h2>Material completo - AMII</h2>
+            <div class="subject">Analisis Matematico II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 438</div>
+            <h2>Material completo - Numérico</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 439</div>
+            <h2>Material - Física I</h2>
+            <div class="subject">Fisica I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 440</div>
+            <h2>Material - Física II</h2>
+            <div class="subject">Fisica II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 441</div>
+            <h2>Material - Intro a distribuidos / Redes</h2>
+            <div class="subject">Introduccion a los Sistemas Distribuidos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 442</div>
+            <h2>Material - Proba</h2>
+            <div class="subject">Probabilidad y Estadistica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 443</div>
+            <h2>Computer Systems A Programmer’s Perspective (Bibliografía Marchi)</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 444</div>
+            <h2>Computer Organization and Design RISC-V Edition (Bibliografía Marchi)</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 445</div>
+            <h2>Sistemas de numeracion</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 446</div>
+            <h2>Operaciones basicas sistemas de numeracion</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 447</div>
+            <h2>[TDA Podbe] Parcial 13-05-2024</h2>
+            <div class="subject">Teoria de Algoritmos I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 448</div>
+            <h2>[TDA Podbe] Parcial 10-06-2024 Primer Recuperatorio</h2>
+            <div class="subject">Teoria de Algoritmos I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 449</div>
+            <h2>[TDA Podbe] Parcial resuelto de ejemplo 1C2024</h2>
+            <div class="subject">Teoria de Algoritmos I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 450</div>
+            <h2>Resumen completo</h2>
+            <div class="subject">Probabilidad y Estadistica B</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 451</div>
+            <h2>Resumen de EBT I - Santiago Sevitz</h2>
+            <div class="subject">Introduccion a la Economia y Organizacion de la Empresa</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 452</div>
+            <h2>REACCIONES REDOX y otros</h2>
+            <div class="subject">Quimica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 453</div>
+            <h2>Parcial 23/10/2024 TB067 redes de comunicaciones</h2>
+            <div class="subject">Comunicacion de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 454</div>
+            <h2>Resumen Definitivo 1er Parcial Algebra Lineal</h2>
+            <div class="subject">Algebra II</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 456</div>
+            <h2>Tp 1 Mate Discreta Resuelto</h2>
+            <div class="subject">Matematica Discreta</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 457</div>
+            <h2>Parcial 2C Fundamentos de la Programación</h2>
+            <div class="subject">Algoritmos y Programacion I</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 458</div>
+            <h2>Ejercicios de repaso Contabilidad - Gestion de Costo</h2>
+            <div class="subject">Gestion de Costos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 459</div>
+            <h2>Base de Datos 2do Parcial Promocional</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 461</div>
+            <h2>Base de Datos 2do Parcial Promocional 2C2023</h2>
+            <div class="subject">Base de Datos</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 462</div>
+            <h2>Preguntas de parcial - Electrotecnia</h2>
+            <div class="subject">Electrotecnia General</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 464</div>
+            <h2>Diapositivas para Final (Catedra Mazzeo/Musso)</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 465</div>
+            <h2>Integrador Curso Cavaliere 2C 2024</h2>
+            <div class="subject">Modelacion numerica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 466</div>
+            <h2>Parcial Curso (7) Cavaliere 2C 2024 </h2>
+            <div class="subject">Modelacion numerica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 467</div>
+            <h2>Parcial Curso Volpi 2C 2024 (1ra fecha)</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 468</div>
+            <h2>Parcial Curso Volpi 2C 2024 (1er recuperatorio)</h2>
+            <div class="subject">Organizacion del Computador</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 469</div>
+            <h2>Tarela - Parcial 2024 2C</h2>
+            <div class="subject">Modelacion numerica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 470</div>
+            <h2>Tarela - Final 2024 2C</h2>
+            <div class="subject">Modelacion numerica</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 471</div>
+            <h2>Final Cavaliere resuelto corregido 18-02-25</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 472</div>
+            <h2>Final Cavaliere resuelto corregido 18-12-18</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 473</div>
+            <h2>Final Cavaliere resuelto 17-12-24</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 474</div>
+            <h2>Final Cavaliere 02-07-24</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 475</div>
+            <h2>Final Cavaliere 06-08-24</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 476</div>
+            <h2>Final Cavaliere 10-07-23</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 477</div>
+            <h2>Final Cavaliere 10-12-24</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 478</div>
+            <h2>Final Cavaliere 12y19-12-23</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 479</div>
+            <h2>Final Cavaliere 16-07-24</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 480</div>
+            <h2>Parcial Economía </h2>
+            <div class="subject">Economia</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 481</div>
+            <h2>Parcial 1C2025 Sassano</h2>
+            <div class="subject">Analisis Numerico</div>
+        </div>
+        <div class="item">
+            <div class="id">ID: 483</div>
+            <h2>Apuntes Estructuras COMPLETOS</h2>
+            <div class="subject">Estructuras y Procesos Organizacionales</div>
+        </div>
+    </div>
 </body>
+
 </html>
